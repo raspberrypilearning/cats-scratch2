@@ -1,58 +1,59 @@
+--- no-print ---
+
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/en/projects/cats).
+
+--- /no-print ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Cats finished](images/cats-finished.png)
 --- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ Describe hardware here
-
-### Software
-
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
-
---- /collapse ---
 
 --- collapse ---
 ---
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to use a `forever` loop to constantly generate moving cats
++ How to use a `repeat until` loop to ensure your cats follow a line
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: What you will need
 ---
+### Hardware
++ A computer capable of running Scratch 2.0
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+### Software
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+### Downloads
++ [Offline starter project](resources/cats-resources.sb){:target="_blank"}
 
+--- /collapse ---
+
+--- collapse ---
+---
+title: Additional notes for educators
+---
+--- no-print ---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats-scratch2/print).
+--- /no-print ---
+
+You can [find the resources for this project here](http://rpf.io/p/cats-go){:target="_blank"}.
 --- /collapse ---
