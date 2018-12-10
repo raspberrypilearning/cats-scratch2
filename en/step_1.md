@@ -40,10 +40,10 @@ title: What you will need
 + A computer capable of running Scratch 2.0
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 2.0 [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
-+ [Offline starter project](resources/cats-resources.sb){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/cats-scratch2-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -55,5 +55,6 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats-scratch2/print).
 --- /no-print ---
 
-You can [find the resources for this project here](http://rpf.io/p/cats-go){:target="_blank"}.
+You can [find the solution for this project here](http://rpf.io/p/en/cats-scratch2-get){:target="_blank"}.
+
 --- /collapse ---
