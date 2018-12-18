@@ -1,7 +1,7 @@
 ## Draw lines
 
 --- task ---
-Open the 'CATS!' Scratch [starter project](resources/cats-resources.sb2) in the offline editor. 
+Open the 'CATS!' Scratch [starter project](http://rpf.io/p/en/cats-scratch2-go) in the offline editor. 
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
