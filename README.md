@@ -1,6 +1,8 @@
-# cats-scratch2
+#CATS!
 
-![cats-scratch2](banner.png)
+Create a simple line following game in Scratch. Guide the cats to safety - don't let any fall through the gaps!
+
+![Cats](banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/cats-scratch2](https://projects.raspberrypi.org/en/projects/cats-scratch2)
 
@@ -11,4 +13,4 @@ For solutions and project materials, see [en/resources](https://github.com/raspb
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Licence
- See [LICENSE.md](LICENSE.md)
+See [LICENSE.md](LICENSE.md)
