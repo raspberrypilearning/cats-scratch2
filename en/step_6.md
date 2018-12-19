@@ -49,9 +49,9 @@ repeat until <touching [edge v]?>
     end
     next costume
     wait (0.1) secs
-    + if <touching [Door v]?> then
-        + change [score v] by (1)
-    + end
++   if <touching [Door v]?> then
+        change [score v] by (1)
+    end
 end
 delete this clone
 
