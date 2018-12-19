@@ -12,12 +12,7 @@ Click on the sprite called 'Pen', and add code to set the pen colour to the same
 
 ![Pen sprite](images/pen-sprite.png)
 
-```blocks
-when flag clicked
-set pen color to [#0000ff]
-clear
-set pen size to (5)
-```
+![blocks_1545217451_1082788](images/blocks_1545217451_1082788.png)
 
 To select a colour, click on the colour square in the `set pen color`{:class="blockpen"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
 
@@ -28,11 +23,7 @@ Add some more code to make the sprite follow the mouse pointer. Test your progra
 
 ![Pen sprite](images/pen-sprite.png)
 
-```blocks
-forever
-go to [mouse pointer v]
-end
-```
+![blocks_1545217453_2403882](images/blocks_1545217453_2403882.png)
 
 [[[generic-scratch-saving]]]
 
@@ -51,35 +42,13 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
-<mouse down?>
-
-pen down
-
-pen up
-
-if <> then
-else
-end
-```
+![blocks_1545217454_315919](images/blocks_1545217454_315919.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-```blocks
-when flag clicked
-set pen color to [#0000ff]
-clear
-set pen size to (5)
-forever
-go to [mouse pointer v]
-if <mouse down?> then
-pen down
-else
-pen up
-end
-```
+![blocks_1545217455_704182](images/blocks_1545217455_704182.png)
 --- /hint ---
 
 --- /hints ---
@@ -99,12 +68,5 @@ To stop this from happening, add a `pen up`{:class="blockpen"} block at the star
 
 ![Pen sprite](images/pen-sprite.png)
 
-```blocks
-when flag clicked
-+ pen up
-set pen color to [#0000ff]
-clear
-set pen size to (5)
-+ wait (1) secs
-```
+![blocks_1545217456_805298](images/blocks_1545217456_805298.png)
 --- /task ---

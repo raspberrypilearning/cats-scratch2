@@ -7,14 +7,7 @@ Click on the sprite called 'Cat', and add some code to `hide`{:class="blocklooks
 
 ![Cat sprite](images/cat-sprite.png)
 
-```blocks
-when flag clicked
-hide
-forever
-    create clone of [myself v]
-    wait (3) secs
-end
-```
+![blocks_1545217457_9045317](images/blocks_1545217457_9045317.png)
 
 --- /task ---
 
@@ -34,30 +27,13 @@ Add code to tell the sprite that `when it starts as a clone`{:class="blockcontro
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
-repeat until <>
-end
-
-show
-
-<touching color [#0000ff]?>
-
-change y by (-2)
-
-when I start as a clone
-```
+![blocks_1545217459_0109704](images/blocks_1545217459_0109704.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-```blocks
-when I start as a clone
-show
-repeat until <touching color [#0000ff]?>
-change y by (-2)
-end
-```
+![blocks_1545217460_137957](images/blocks_1545217460_137957.png)
 
 --- /hint ---
 --- /hints ---
