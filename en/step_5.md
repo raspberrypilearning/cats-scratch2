@@ -17,14 +17,14 @@ The cat should `move up 2`{:class="blockmotion"} `repeatedly until`{:class="bloc
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1545217466_8869226](images/blocks_1545217466_8869226.png)
+![blocks_1546523379_9226995](images/blocks_1546523379_9226995.png)
 
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545217468_019935](images/blocks_1545217468_019935.png)
+![blocks_1546523381_4892082](images/blocks_1546523381_4892082.png)
 --- /hint ---
 
 --- /hints ---

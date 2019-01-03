@@ -23,13 +23,13 @@ Add code to your cat sprite to add `1` to the `score`{:class="blockdata"} each t
 
 --- hint ---
 Here are the new code blocks you need to add to your `when I start as a clone` script:
-![blocks_1545217469_2456596](images/blocks_1545217469_2456596.png)
+![blocks_1546523383_1039734](images/blocks_1546523383_1039734.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545217470_3230069](images/blocks_1545217470_3230069.png)
+![blocks_1546523384_7155907](images/blocks_1546523384_7155907.png)
 --- /hint ---
 
 --- /hints ---
@@ -41,5 +41,5 @@ Add some more code so that, when a cat sprite reaches the door, the cat makes a 
 
 ![Cat sprite](images/cat-sprite.png)
 
-![blocks_1545217471_4667182](images/blocks_1545217471_4667182.png)
+![blocks_1546523386_4020605](images/blocks_1546523386_4020605.png)
 --- /task ---
