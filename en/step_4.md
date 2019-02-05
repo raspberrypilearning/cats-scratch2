@@ -17,13 +17,33 @@ The cat sprite should `move 10 steps`{:class="blockmotion"}, and `switch costume
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1546523371_7713013](images/blocks_1546523371_7713013.png)
+```blocks
+move (10) steps
+
+wait (0.1) secs
+
+next costume
+
+forever
+end
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546523373_385954](images/blocks_1546523373_385954.png)
+```blocks
+when I start as a clone
+show
++ forever
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) secs
+end
+```
 
 --- /hint ---
 
@@ -43,7 +63,19 @@ Remove the `forever`{:class="blockcontrol"} loop, and instead add a different lo
 
 ![Cat sprite](images/cat-sprite.png)
 
-![blocks_1546523375_0417652](images/blocks_1546523375_0417652.png)
+```blocks
+when I start as a clone
+show
++ repeat until <touching [edge v]?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) secs
+end
++ delete this clone
+```
 
 --- /task ---
 
@@ -56,7 +88,10 @@ You may notice that, if the cats fall into the hole, they don't disappear but in
 
 This is the part of the code that tells the cat to keep falling until it touches blue:
 
-![blocks_1546523376_6906176](images/blocks_1546523376_6906176.png)
+```blocks
+repeat until <touching color [#0000ff]?>
+end
+```
 
 However, in the hole, the cat can never reach blue, so it is stuck forever.
 
@@ -65,5 +100,8 @@ Add more blocks to this loop so that it repeats until the cat sprite is touching
 
 ![Cat sprite](images/cat-sprite.png)
 
-![blocks_1546523378_2850122](images/blocks_1546523378_2850122.png)
+```blocks
+repeat until <<touching color [#0000ff]?> or <touching [edge v]?>>
+end
+```
 --- /task ---
