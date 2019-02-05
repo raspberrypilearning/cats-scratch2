@@ -23,13 +23,43 @@ Add code to your cat sprite to add `1` to the `score`{:class="blockdata"} each t
 
 --- hint ---
 Here are the new code blocks you need to add to your `when I start as a clone` script:
-![blocks_1546523383_1039734](images/blocks_1546523383_1039734.png)
+```blocks
+change [score v] by (1)
+
+if <> then
+end
+
+<touching [Door v]?>
+
+set [score v] to (0)
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546523384_7155907](images/blocks_1546523384_7155907.png)
+```blocks
+when I start as a clone
+show
+repeat until <touching [edge v]?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    repeat until <not <touching color [#0000ff]?>>
+        change y by (2)
+    end
+    next costume
+    wait (0.1) secs
++   if <touching [Door v]?> then
+        change [score v] by (1)
+    end
+end
+delete this clone
+
+when flag clicked
++ set [score v] to (0)
+```
 --- /hint ---
 
 --- /hints ---
@@ -41,5 +71,8 @@ Add some more code so that, when a cat sprite reaches the door, the cat makes a 
 
 ![Cat sprite](images/cat-sprite.png)
 
-![blocks_1546523386_4020605](images/blocks_1546523386_4020605.png)
+```blocks
+play sound [meow v]
+delete this clone
+```
 --- /task ---
